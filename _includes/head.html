@@ -26,7 +26,9 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | remove: '<p>' | remove: '</p>' }}{% else %}{{ site.description }}{% endif %}">
-  <meta property=”og:image" content="{% if page.image %}{{ page.image}}{% else %}{{ "images/profile.jpg" | prepend: site.url }}{% endif %}">
+  <meta property=”og:image" content="{% if page.image %}{{ page.image}}{% else %}{{ "/images/profile.jpg" | prepend: site.url }}{% endif %}">
+  <meta property="og:article:author" content="{{ site.author.name }}">
+  <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:url" content="{{ page.url | prepend: site.url }}">
 
   <link rel="apple-touch-icon" sizes="57x57" href="{{ "images/favicons/apple-touch-icon-57x57.png" | prepend: site.baseurl }}">
