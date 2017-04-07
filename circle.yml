@@ -15,4 +15,5 @@ deployment:
     branch: master
     commands:
       - aws s3 sync ./_site s3://alexmgraham.github.io --delete
-      - aws configure set preview.cloudfront true && aws cloudfront create-invalidation --distribution-id $cloudfrontdistribution \ --paths /*
+      - aws configure set preview.cloudfront true
+      - aws cloudfront create-invalidation --distribution-id $cloudfrontdistribution \ --paths /*
