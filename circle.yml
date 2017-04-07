@@ -9,3 +9,9 @@ dependencies:
 test:
   post:
     - bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external --url-ignore "/\/#blog/"
+
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync jekyll/_site s3://alexmgraham.github.io --delete
