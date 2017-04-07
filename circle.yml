@@ -8,4 +8,4 @@ dependencies:
 
 test:
   post:
-    - bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external --url-ignore "/about" --url-ignore "/resume"
+    - bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external --url-ignore "/\/#blog/"
