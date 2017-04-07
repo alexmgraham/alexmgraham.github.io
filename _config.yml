@@ -36,4 +36,4 @@ kramdown:
   hard_wrap: false
 
 gems: ['jekyll-paginate', 'jekyll-gist', 'jemoji', 'jekyll-email-protect']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'vendor']
