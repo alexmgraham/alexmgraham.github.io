@@ -25,7 +25,10 @@ Alex Graham
 #### 11/14 – Present    Technical Operations at Slack   San Francisco, CA
 **Senior Operations Engineer**
 
-* I help make Slack a little less [terrible][stewart] every day. :smile:
+* Deployed and maintained CDN infrastructure.
+* Helped move entire infrastructure from Zend PHP to HHVM.
+* Built and maintained web server tier for slack.com and Slack API.
+* Maintained thousands of servers using chef.
 
 #### 02/14 – 11/14    Technical Operations at Box   Los Altos, CA
 **Systems Engineer II**
